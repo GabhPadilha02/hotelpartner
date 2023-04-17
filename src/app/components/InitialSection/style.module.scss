@@ -1,0 +1,21 @@
+.background{
+  height: calc(100vh - 70px);
+  width: 100%;
+  background-image: url('../../../../public/assets/background.png');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: start;
+  background-size: cover;
+
+  img{
+    margin-top: 40vh;
+  }
+
+  @media (max-width: 880px){
+    img{
+      width: auto;
+      height: auto;
+      max-width: 70vw;
+    }
+  }
+}

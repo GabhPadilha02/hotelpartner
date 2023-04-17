@@ -1,0 +1,15 @@
+.styleContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+@media (max-width: 800px) {
+  .galleryTitle{
+    width: auto;
+    height: auto;
+    width: 200px;
+  } 
+}
