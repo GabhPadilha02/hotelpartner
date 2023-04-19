@@ -54,21 +54,21 @@ export function About() {
           <div className={style.qualityDisplay}>
             <div className={style.qualityItem}>
               <Sun size={230}/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio assumenda, ipsum corporis possimus dolores porro perspiciatis iusto eligendi praesentium tempore!</p>
+              <p>Quartos com vista para o mar: Nossos quartos com vista para o mar oferecem uma experiência única e relaxante, onde você pode desfrutar de vistas deslumbrantes enquanto se aconchega na sua cama.</p>
             </div>
             <div className={style.qualityItem}>
-              <EyeClosed size={230}/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa temporibus deleniti, ipsam quae nostrum consequuntur iusto vel sit reprehenderit enim?</p>
+              <EyeClosed size={150}/>
+              <p>Spa e bem-estar: Mime-se com nossos tratamentos de spa e bem-estar, projetados para revigorar seu corpo e mente. </p>
             </div>
           </div>
           <div className={style.qualityDisplay}>
             <div className={style.qualityItem}>
               <SwimmingPool size={230}/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, sint libero aperiam vero natus ea nobis tenetur assumenda eos nesciunt?</p>
+              <p>Piscina à beira-mar: Refresque-se e relaxe em nossa piscina à beira-mar, com vista para o oceano e rodeada por espreguiçadeiras confortáveis.</p>
             </div>
             <div className={style.qualityItem}>
               <Waves size={230}/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, accusamus odio saepe inventore quasi aliquid obcaecati placeat magnam dolores quam?</p>
+              <p>Desfrute de uma praia privada exclusiva, onde você pode desfrutar do sol, nadar no oceano e relaxar em um ambiente tranquilo e privado, longe das multidões.</p>
             </div>
           </div>
         </div>

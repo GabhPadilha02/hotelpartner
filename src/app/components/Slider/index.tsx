@@ -40,12 +40,12 @@ const Slider = () => {
       title: "VISTA PARA PRAIA",
     },
     {
-      imageUrl: "https://media.graphassets.com/ppKhTf0iTnSvaolTd8r2?_gl=1*ebcgyt*_ga*MTkyODk2MjYuMTY1OTM4NDgyNQ..*_ga_G6FYGSYGZ4*MTY4MTg2MzkyNC44Mi4xLjE2ODE4NjM5NjkuMTUuMC4w",
-      title: "VISTA PARA PRAIA",
+      imageUrl: "https://media.graphassets.com/output=format:jpg/resize=height:800,fit:max/tldnlzJQsOTYaM3rXtyO",
+      title: "RECEPÇÃO",
     },
     {
-      imageUrl: "https://media.graphassets.com/ppKhTf0iTnSvaolTd8r2?_gl=1*ebcgyt*_ga*MTkyODk2MjYuMTY1OTM4NDgyNQ..*_ga_G6FYGSYGZ4*MTY4MTg2MzkyNC44Mi4xLjE2ODE4NjM5NjkuMTUuMC4w",
-      title: "VISTA PARA PRAIA",
+      imageUrl: "https://media.graphassets.com/VzbQ4duRqyrzM7hQiTnx?_gl=1*14zfwdl*_ga*MTkyODk2MjYuMTY1OTM4NDgyNQ..*_ga_G6FYGSYGZ4*MTY4MTg2MzkyNC44Mi4xLjE2ODE4NjU2NjMuNjAuMC4w",
+      title: "HALL DE ENTRADA",
     },
   ]);
   const [activeIndex, setActiveIndex] = useState(0);
