@@ -24,9 +24,9 @@ export default function Header() {
           <li><a href="#findUs">ENCONTRE-NOS</a></li>
         </ul>
         <ul className={style.iconsLinks}>
-           <li><a href="https://www.instagram.com/pontal_da_barra_itapoa/" target="_blank"><Image src={Instragram} alt="Ícone Instagram"/></a></li>
-           <li><a href="https://wa.me/554799468662" target="_blank"><Image src={Whats} alt="Ícone Whats"/></a></li>
-           <li><a href="https://www.facebook.com/profile.php?id=100088218352562" target="_blank"> <Image src={Facebook} alt="Ícone Facebook"/></a></li>
+           <li><a href="https://www.instagram.com/partneritapoa/" target="_blank"><Image src={Instragram} alt="Ícone Instagram"/></a></li>
+           <li><a href="https://wa.me/5547999380066" target="_blank"><Image src={Whats} alt="Ícone Whats"/></a></li>
+           <li><a href="https://www.facebook.com/profile.php?id=100090911494350" target="_blank"> <Image src={Facebook} alt="Ícone Facebook"/></a></li>
          </ul>
       </nav>
     </header>

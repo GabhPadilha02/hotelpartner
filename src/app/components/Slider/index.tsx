@@ -3,8 +3,8 @@ import { CaretLeft, CaretRight } from "phosphor-react";
 import { useState } from "react";
 import "./styles.css";
 import {EB_Garamond} from "next/font/google"
-import bgBlur from "../../../../public/assets/Blur.svg"
-import Image from "next/image";
+import { gql, useQuery } from "@apollo/client";
+import { useGetSlidesQueryQuery } from "@/graphql/generated";
 
 const ebGaramond = EB_Garamond (
   {
@@ -15,27 +15,38 @@ const ebGaramond = EB_Garamond (
   }
 )
 
+
+
 const Slider = () => {
+
+  const {data} = useGetSlidesQueryQuery()
+  
+  
   const [slides, setSlides] = useState([
     {
-      imageUrl: "https://images.unsplash.com/photo-1680399524821-d4e6b225b0ee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-      title: "PRIMEIRO SLIDE",
-      description: "slhdoashdoisahdou d uosahduosahduoh sahdsadasd sadasds adsadasdasd asdsadsads adsadsa dsadsadsadsadsad sadsadsad sadsadsada sdsadsad sadasdsad"
+      imageUrl: "https://media.graphassets.com/WQg9CezTmahFF7ydDGQh?_gl=1*irwx37*_ga*MTkyODk2MjYuMTY1OTM4NDgyNQ..*_ga_G6FYGSYGZ4*MTY4MTg2MzkyNC44Mi4xLjE2ODE4NjM5MzguNDYuMC4w",
+      title: "RESTAURANTE",
     },
     {
-      imageUrl: "https://plus.unsplash.com/premium_photo-1676977395918-7300b6375e99?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
-      title: "SEGUNDO SLIDE",
-      description:"SADHSADH AISDHUIASHDU ASDHUSAIHD IDHASUIDH ASUASHDUIASH DUASHD IUASHASIDUHASUDH DASHDU"
+      imageUrl: "https://media.graphassets.com/sLuSaXcQk6olYU4v4gRa?_gl=1*1ac294x*_ga*MTkyODk2MjYuMTY1OTM4NDgyNQ..*_ga_G6FYGSYGZ4*MTY4MTg2MzkyNC44Mi4xLjE2ODE4NjM5NjkuMTUuMC4w",
+      title: "ÁREA EXTERNA - PISCINA",
     },
     {
-      imageUrl: "https://plus.unsplash.com/premium_photo-1676977395918-7300b6375e99?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
-      title: "Segundo slide",
+      imageUrl: "https://media.graphassets.com/jzLKcEWtRV2HeDeLhhnU?_gl=1*1i1hwkb*_ga*MTkyODk2MjYuMTY1OTM4NDgyNQ..*_ga_G6FYGSYGZ4*MTY4MTg2MzkyNC44Mi4xLjE2ODE4NjM5NjkuMTUuMC4w",
+      title: "PARQUE INFANTIL",
     },
     {
-      imageUrl: "https://plus.unsplash.com/premium_photo-1676977395918-7300b6375e99?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
-      title: "Segundo slide",
+      imageUrl: "https://media.graphassets.com/ppKhTf0iTnSvaolTd8r2?_gl=1*ebcgyt*_ga*MTkyODk2MjYuMTY1OTM4NDgyNQ..*_ga_G6FYGSYGZ4*MTY4MTg2MzkyNC44Mi4xLjE2ODE4NjM5NjkuMTUuMC4w",
+      title: "VISTA PARA PRAIA",
     },
-
+    {
+      imageUrl: "https://media.graphassets.com/ppKhTf0iTnSvaolTd8r2?_gl=1*ebcgyt*_ga*MTkyODk2MjYuMTY1OTM4NDgyNQ..*_ga_G6FYGSYGZ4*MTY4MTg2MzkyNC44Mi4xLjE2ODE4NjM5NjkuMTUuMC4w",
+      title: "VISTA PARA PRAIA",
+    },
+    {
+      imageUrl: "https://media.graphassets.com/ppKhTf0iTnSvaolTd8r2?_gl=1*ebcgyt*_ga*MTkyODk2MjYuMTY1OTM4NDgyNQ..*_ga_G6FYGSYGZ4*MTY4MTg2MzkyNC44Mi4xLjE2ODE4NjM5NjkuMTUuMC4w",
+      title: "VISTA PARA PRAIA",
+    },
   ]);
   const [activeIndex, setActiveIndex] = useState(0);
 
@@ -57,7 +68,7 @@ const Slider = () => {
         <div
           className={`slides ${activeIndex !== 0 ? "transitioning" : ""}`}
           style={{
-            transform: `translateX(-${activeIndex * (400 / slides.length)}%)`,
+            transform: `translateX(-${activeIndex * (600 / slides.length)}%)`,
           }}
         >
           {slides.map((slide, index) => (
@@ -65,7 +76,7 @@ const Slider = () => {
               <img src={slide.imageUrl} alt={`Slide ${index + 1}`} />
               <div className="textContainer">
                 <h2 className="title">{slide.title}</h2>
-                <p className="description">{slide.description}</p>
+                {/* <p className="description">{slide.description}</p> */}
               </div>
             </div>
           ))}
@@ -86,7 +97,6 @@ const Slider = () => {
           ))}
         </div>
       </div>
-      
     </div>
   );
 };

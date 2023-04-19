@@ -17,7 +17,7 @@ export function About() {
       <div className={style.firstInfoContainer}>
         <div className={style.textContainer}>
           <Image src={sunIcon} alt="Icone de Sol" className={style.sun} width={200}/>
-          <p>Aproveite um pôr do sol incrível, refrescante brisa do mar e um ambiente relaxante em nosso hotel na praia.</p>
+          <p>Aproveite um por do sol incrível, brisa do mar e um ambiente relaxante de frente para a Baía da Babitonga.</p>
         </div>
         <Image src={aboutImage} alt="Imagem do hotel" className={style.aboutImage} />
       </div>

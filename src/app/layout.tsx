@@ -4,6 +4,8 @@ export const metadata = {
   description: 'Hotel Partner Itapoá',
   
 }
+import { client } from '@/lib/apollo'
+import { ApolloProvider } from '@apollo/client'
 import { Inter } from 'next/font/google'
 const inter = Inter({
   weight: ['200', '300', '400', '500', '700', '800'],
@@ -20,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={inter.variable}>
-      <body>{children}</body>
+        <body>{children}</body>  
     </html>
   )
 }

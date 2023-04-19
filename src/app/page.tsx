@@ -1,4 +1,6 @@
-import { Inter } from 'next/font/google'
+"use client"
+import { client } from '@/lib/apollo'
+import { ApolloProvider } from '@apollo/client'
 import Head from 'next/head'
 import { About } from './components/About/Index'
 import { ContactForm } from './components/ContactForm'
@@ -12,16 +14,19 @@ import './globals.css'
 
 export default function Home() {
   return (  
-    <div>
-      <Head>
-        <title>Hotel Partner Itapoá</title>
-      </Head>
-      <Header />
-      <InitialSection/>
-      <About/>
-      <MainGallery/>
-      <ContactForm/>
-      <FindUs/>
-    </div>
+      <ApolloProvider client={client}>
+        <div>
+          <Head>
+            <title>Hotel Partner Itapoá</title>
+          </Head>
+          <Header />
+          <InitialSection/>
+          <About/>
+          <MainGallery/>
+          <ContactForm/>
+          <FindUs/>
+        </div>   
+      </ApolloProvider>
+        
   )
 }

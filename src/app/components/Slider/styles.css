@@ -112,16 +112,12 @@
     height: 40vh;
   }
 
-  .dots{
-    margin-top: 2rem;
-  }
-
   .slider-container{
     width: 100%;
   }
   .textContainer{
     max-width: 70vw;
-    heigth: 30vh;
+    heigth: 20vh;
   }
   .title{
     font-size: 1rem;
