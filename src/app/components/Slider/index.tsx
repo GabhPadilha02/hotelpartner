@@ -47,6 +47,42 @@ const Slider = () => {
       imageUrl: "https://media.graphassets.com/VzbQ4duRqyrzM7hQiTnx?_gl=1*14zfwdl*_ga*MTkyODk2MjYuMTY1OTM4NDgyNQ..*_ga_G6FYGSYGZ4*MTY4MTg2MzkyNC44Mi4xLjE2ODE4NjU2NjMuNjAuMC4w",
       title: "HALL DE ENTRADA",
     },
+    {
+      imageUrl: "https://media.graphassets.com/cPq2cOJfRoivuyc9B8qv?_gl=1*bo373v*_ga*MTkyODk2MjYuMTY1OTM4NDgyNQ..*_ga_G6FYGSYGZ4*MTY4MjA5MDU1MC44My4xLjE2ODIwOTE5NTYuNDEuMC4w",
+      title: "VISTA PARA O POR DO SOL"
+    },
+    {
+      imageUrl:"https://media.graphassets.com/output=format:jpg/resize=height:800,fit:max/gSM5b8QvQV2dNrzdmYz5",
+      title:"ÁREA EXTERNA"
+    },
+    {
+      imageUrl:"https://media.graphassets.com/output=format:jpg/resize=height:800,fit:max/43cXXDrTxOwvZVsdETNE",
+      title:"ÁREA EXTERNA"
+    },
+    {
+      imageUrl:"https://media.graphassets.com/output=format:jpg/resize=height:800,fit:max/ufbdNkcSFC8VeOghm88Q",
+      title:"RESTAURANTE"
+    },
+    {
+      imageUrl:"https://media.graphassets.com/pY9C2ww4TummfAPuezU8?_gl=1*1q6tv21*_ga*MTkyODk2MjYuMTY1OTM4NDgyNQ..*_ga_G6FYGSYGZ4*MTY4MjA5MDU1MC44My4xLjE2ODIwOTE5NTYuNDEuMC4w",
+      title:"QUARTO"
+    },
+    {
+      imageUrl:"https://media.graphassets.com/lQzgQBisSTOUwx2FtHA7?_gl=1*10nh12b*_ga*MTkyODk2MjYuMTY1OTM4NDgyNQ..*_ga_G6FYGSYGZ4*MTY4MjA5MDU1MC44My4xLjE2ODIwOTE5NTYuNDEuMC4w",
+      title: "POR DO SOL"
+    },
+    {
+      imageUrl:"https://media.graphassets.com/output=format:jpg/resize=height:800,fit:max/3ZaVMkv3R32749xxAKAH",
+      title:"QUARTO"
+    },
+    {
+      imageUrl:"https://media.graphassets.com/output=format:jpg/resize=height:800,fit:max/2JjonViFRnWRoWU4bgrh",
+      title:"PARQUINHO"
+    },
+    {
+      imageUrl:"https://media.graphassets.com/khIlU8PSTdqrnp65Lylb?_gl=1*1qrb66r*_ga*MTkyODk2MjYuMTY1OTM4NDgyNQ..*_ga_G6FYGSYGZ4*MTY4MjA5MDU1MC44My4xLjE2ODIwOTI2MzMuNjAuMC4w",
+      title:"HOTEL PARTNER"
+    }
   ]);
   const [activeIndex, setActiveIndex] = useState(0);
 
@@ -68,7 +104,7 @@ const Slider = () => {
         <div
           className={`slides ${activeIndex !== 0 ? "transitioning" : ""}`}
           style={{
-            transform: `translateX(-${activeIndex * (600 / slides.length)}%)`,
+            transform: `translateX(-${activeIndex * (1500 / slides.length)}%)`,
           }}
         >
           {slides.map((slide, index) => (

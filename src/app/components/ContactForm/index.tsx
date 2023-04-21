@@ -28,6 +28,7 @@ export function ContactForm() {
       observacoes: observacoes,
       tel: tel
     }
+    
 
     send("service_cek2bud", "template_tedu9gx", templateParams, "zyERKQiqd_R47wlGu")
     .then((res) => {
