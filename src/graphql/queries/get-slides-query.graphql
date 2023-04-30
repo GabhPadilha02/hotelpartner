@@ -1,9 +1,0 @@
- query GetSlidesQuery {
-  slides {
-    title
-    imageUrl {
-      url
-    }
-    description
-  }
-}

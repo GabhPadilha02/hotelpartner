@@ -3,8 +3,6 @@ import { CaretLeft, CaretRight } from "phosphor-react";
 import { useState } from "react";
 import "./styles.css";
 import {EB_Garamond} from "next/font/google"
-import { gql, useQuery } from "@apollo/client";
-import { useGetSlidesQueryQuery } from "@/graphql/generated";
 
 const ebGaramond = EB_Garamond (
   {
@@ -19,8 +17,7 @@ const ebGaramond = EB_Garamond (
 
 const Slider = () => {
 
-  const {data} = useGetSlidesQueryQuery()
-  
+   
   
   const [slides, setSlides] = useState([
     {
