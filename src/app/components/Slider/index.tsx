@@ -21,67 +21,152 @@ const Slider = () => {
   
   const [slides, setSlides] = useState([
     {
-      imageUrl: "https://media.graphassets.com/WQg9CezTmahFF7ydDGQh?_gl=1*irwx37*_ga*MTkyODk2MjYuMTY1OTM4NDgyNQ..*_ga_G6FYGSYGZ4*MTY4MTg2MzkyNC44Mi4xLjE2ODE4NjM5MzguNDYuMC4w",
+      imageUrl: "https://media.graphassets.com/R7YyIj5lQuii6bfrDyVv",
       title: "RESTAURANTE",
     },
     {
-      imageUrl: "https://media.graphassets.com/sLuSaXcQk6olYU4v4gRa?_gl=1*1ac294x*_ga*MTkyODk2MjYuMTY1OTM4NDgyNQ..*_ga_G6FYGSYGZ4*MTY4MTg2MzkyNC44Mi4xLjE2ODE4NjM5NjkuMTUuMC4w",
-      title: "ÁREA EXTERNA - PISCINA",
+      imageUrl: "https://media.graphassets.com/28BSau0MQ1WLvislB3v9",
+      title: "RESTAURANTE",
     },
     {
-      imageUrl: "https://media.graphassets.com/jzLKcEWtRV2HeDeLhhnU?_gl=1*1i1hwkb*_ga*MTkyODk2MjYuMTY1OTM4NDgyNQ..*_ga_G6FYGSYGZ4*MTY4MTg2MzkyNC44Mi4xLjE2ODE4NjM5NjkuMTUuMC4w",
+      imageUrl: "https://media.graphassets.com/0iMgQky3TZ6RcxXlD1ap",
+      title: "RESTAURANTE",
+    },
+    {
+      imageUrl: "https://media.graphassets.com/2OXo9mBTySW6GP5MpltL",
+      title: "RESTAURANTE",
+    },
+    {
+      imageUrl: "https://media.graphassets.com/dyR1mkVkSPa5XpfIAC4x",
+      title: "RESTAURANTE",
+    },
+    {
+      imageUrl: "https://media.graphassets.com/Yx705aL1SWO5vRdq1Um8",
+      title: "RESTAURANTE",
+    },
+    {
+      imageUrl: "https://media.graphassets.com/k7MmGcXZTeuWq9WMKU3k",
+      title: "RESTAURANTE",
+    },
+    {
+      imageUrl: "https://media.graphassets.com/Wp3rLE9ATRRUDBBECUn4",
+      title: "QUARTOS",
+    },
+    {
+      imageUrl: "https://media.graphassets.com/ubTmn0YFQ3SeXa0trKEJ",
+      title: "QUARTOS",
+    },
+    {
+      imageUrl: "https://media.graphassets.com/j9ejiGlWQ820CyWwuyhT",
+      title: "QUARTOS",
+    },
+    {
+      imageUrl: "https://media.graphassets.com/UrxHHYhmROTQkRzPPOfq",
+      title: "QUARTOS",
+    },
+    {
+      imageUrl: "https://media.graphassets.com/C5HGTRODQEmWHsr2sHaE",
+      title: "QUARTOS",
+    },
+    {
+      imageUrl: "https://media.graphassets.com/Oc2VAlEHRFW9t6IMz8mr",
+      title: "QUARTOS",
+    },
+    {
+      imageUrl: "https://media.graphassets.com/u9uGQhkLTR6hX6tkQgbx",
+      title: "QUARTOS",
+    },
+    {
+      imageUrl: "https://media.graphassets.com/GVskzHbvT6yR1RJcJQxC",
+      title: "QUARTOS",
+    },
+    {
+      imageUrl: "https://media.graphassets.com/ESXiFN8pQ7PsZOwsdJKq",
+      title: "QUARTOS",
+    },
+    {
+      imageUrl: "https://media.graphassets.com/4SV0354RyqFfzFCZ4f9w",
+      title: "QUARTOS",
+    },
+    {
+      imageUrl: "https://media.graphassets.com/HgB7hBFtQDu0mzHM0aPy",
       title: "PARQUE INFANTIL",
     },
     {
-      imageUrl: "https://media.graphassets.com/ppKhTf0iTnSvaolTd8r2?_gl=1*ebcgyt*_ga*MTkyODk2MjYuMTY1OTM4NDgyNQ..*_ga_G6FYGSYGZ4*MTY4MTg2MzkyNC44Mi4xLjE2ODE4NjM5NjkuMTUuMC4w",
+      imageUrl: "https://media.graphassets.com/aopPAVzvTliglrQHDSOv",
       title: "VISTA PARA PRAIA",
     },
     {
-      imageUrl: "https://media.graphassets.com/output=format:jpg/resize=height:800,fit:max/tldnlzJQsOTYaM3rXtyO",
-      title: "RECEPÇÃO",
+      imageUrl: "https://media.graphassets.com/SNjcqDiQSeypwBn0MaA0",
+      title: "ÁREA EXTERNA",
     },
     {
-      imageUrl: "https://media.graphassets.com/VzbQ4duRqyrzM7hQiTnx?_gl=1*14zfwdl*_ga*MTkyODk2MjYuMTY1OTM4NDgyNQ..*_ga_G6FYGSYGZ4*MTY4MTg2MzkyNC44Mi4xLjE2ODE4NjU2NjMuNjAuMC4w",
-      title: "HALL DE ENTRADA",
+      imageUrl: "https://media.graphassets.com/KeeAfwrdTp21y2FsTF8e",
+      title: "ÁREA EXTERNA",
     },
     {
-      imageUrl: "https://media.graphassets.com/cPq2cOJfRoivuyc9B8qv?_gl=1*bo373v*_ga*MTkyODk2MjYuMTY1OTM4NDgyNQ..*_ga_G6FYGSYGZ4*MTY4MjA5MDU1MC44My4xLjE2ODIwOTE5NTYuNDEuMC4w",
-      title: "VISTA PARA O POR DO SOL"
+      imageUrl: "https://media.graphassets.com/VpekmZMgTrWPl8pg7v4n",
+      title: "ÁREA EXTERNA",
     },
     {
-      imageUrl:"https://media.graphassets.com/output=format:jpg/resize=height:800,fit:max/gSM5b8QvQV2dNrzdmYz5",
-      title:"ÁREA EXTERNA"
+      imageUrl: "https://media.graphassets.com/9HM0jMhxSYGjJkiU2PbU",
+      title: "ÁREA EXTERNA",
     },
     {
-      imageUrl:"https://media.graphassets.com/output=format:jpg/resize=height:800,fit:max/43cXXDrTxOwvZVsdETNE",
-      title:"ÁREA EXTERNA"
+      imageUrl: "https://media.graphassets.com/output=format:jpg/resize=height:800,fit:max/GGdA7EPVSzG4oevk05lx",
+      title: "ÁREA EXTERNA",
     },
     {
-      imageUrl:"https://media.graphassets.com/output=format:jpg/resize=height:800,fit:max/ufbdNkcSFC8VeOghm88Q",
+      imageUrl: "https://media.graphassets.com/ePBCkbDRpea4rZqZYQQl",
+      title: "ÁREA EXTERNA",
+    },
+    {
+      imageUrl: "https://media.graphassets.com/vApUrD3hSTe5xEXgy5zz",
+      title: "ÁREA EXTERNA",
+    },
+    {
+      imageUrl: "https://media.graphassets.com/OdvnoVDS7a2W8Won0oYj",
+      title: "ÁREA EXTERNA",
+    },
+    {
+      imageUrl: "https://media.graphassets.com/01VKV0wYQeOmuDKzexAF",
+      title: "ÁREA EXTERNA",
+    },
+    {
+      imageUrl: "https://media.graphassets.com/a4UfB0Td2MrJqSTeZg2x",
+      title: "INSTALAÇÕES",
+    },
+    {
+      imageUrl: "https://media.graphassets.com/s8AptOvPRraUQ7jTapup",
+      title: "INSTALAÇÕES",
+    },
+    {
+      imageUrl: "https://media.graphassets.com/PDMNBKNSwu2tjulwSZc2",
+      title: "INSTALAÇÕES",
+    },
+    {
+      imageUrl: "https://media.graphassets.com/LQHuzDpeRlSr9RJ4vo7R",
+      title: "INSTALAÇÕES",
+    },
+    {
+      imageUrl: "https://media.graphassets.com/bhFJHyUIT7LkyMOIpOEk",
+      title: "PISCINA"
+    },
+    {
+      imageUrl: "https://media.graphassets.com/output=format:jpg/resize=height:800,fit:max/WGMoH3PiQgKOAedjBdWe",
+      title: "PISCINA"
+    },
+    {
+      imageUrl:"https://media.graphassets.com/tPuF5SNGQuWeAP85FOgX",
       title:"RESTAURANTE"
     },
     {
-      imageUrl:"https://media.graphassets.com/pY9C2ww4TummfAPuezU8?_gl=1*1q6tv21*_ga*MTkyODk2MjYuMTY1OTM4NDgyNQ..*_ga_G6FYGSYGZ4*MTY4MjA5MDU1MC44My4xLjE2ODIwOTE5NTYuNDEuMC4w",
-      title:"QUARTO"
+      imageUrl:"https://media.graphassets.com/YSDioKPuTS23u4v1lYtp",
+      title:"RESTAURANTE"
     },
-    {
-      imageUrl:"https://media.graphassets.com/lQzgQBisSTOUwx2FtHA7?_gl=1*10nh12b*_ga*MTkyODk2MjYuMTY1OTM4NDgyNQ..*_ga_G6FYGSYGZ4*MTY4MjA5MDU1MC44My4xLjE2ODIwOTE5NTYuNDEuMC4w",
-      title: "POR DO SOL"
-    },
-    {
-      imageUrl:"https://media.graphassets.com/output=format:jpg/resize=height:800,fit:max/3ZaVMkv3R32749xxAKAH",
-      title:"QUARTO"
-    },
-    {
-      imageUrl:"https://media.graphassets.com/output=format:jpg/resize=height:800,fit:max/2JjonViFRnWRoWU4bgrh",
-      title:"PARQUINHO"
-    },
-    {
-      imageUrl:"https://media.graphassets.com/khIlU8PSTdqrnp65Lylb?_gl=1*1qrb66r*_ga*MTkyODk2MjYuMTY1OTM4NDgyNQ..*_ga_G6FYGSYGZ4*MTY4MjA5MDU1MC44My4xLjE2ODIwOTI2MzMuNjAuMC4w",
-      title:"HOTEL PARTNER"
-    }
   ]);
   const [activeIndex, setActiveIndex] = useState(0);
+  console.log(slides.length)
 
   const handlePrevSlide = () => {
     setActiveIndex((prevIndex) =>
@@ -101,12 +186,12 @@ const Slider = () => {
         <div
           className={`slides ${activeIndex !== 0 ? "transitioning" : ""}`}
           style={{
-            transform: `translateX(-${activeIndex * (1500 / slides.length)}%)`,
+            transform: `translateX(-${activeIndex * (slides.length * 100 / slides.length)}%)`,
           }}
         >
           {slides.map((slide, index) => (
             <div key={index} className="slide">
-              <img src={slide.imageUrl} alt={`Slide ${index + 1}`} />
+              <a href={slide.imageUrl}><img src={slide.imageUrl} alt={`Slide ${index + 1}`} /></a>
               <div className="textContainer">
                 <h2 className="title">{slide.title}</h2>
                 {/* <p className="description">{slide.description}</p> */}

@@ -1,14 +1,13 @@
 "use client"
 import Image from "next/image";
 import sunIcon from "../../../../public/assets/SunIcon.png"
-import aboutImage from "../../../../public/assets/AboutImage.png"
+import aboutImage from "../../../../public/assets/aboutImage.jpg"
 import style from "./style.module.scss"
 import qualityTitle from "../../../../public/assets/qualityTitle.png"
-import pool from "../../../../public/assets/poolImage.png"
-import glassInfo from "../../../../public/assets/GlassInfo.png"
+import pool from "../../../../public/assets/pool.jpg"
 import aboutUsTitle from "../../../../public/assets/AboutUsTitle.png"
-import { EyeClosed, Sun, Waves } from "phosphor-react";
-import { ForkKnife, SwimmingPool } from "@phosphor-icons/react";
+import { Sun, Waves, ForkKnife, SunHorizon,  } from "phosphor-react";
+
 
 
 export function About() {
@@ -45,21 +44,21 @@ export function About() {
         <div className={style.glassInfoContainer}>
           <div className={style.qualityDisplay}>
             <div className={style.qualityItem}>
-              <Sun />
+              <Sun size={150}/>
               <p>Quartos com vista para o mar: Nossos quartos com vista para o mar oferecem uma experiência única e relaxante, onde você pode desfrutar de vistas deslumbrantes enquanto se aconchega na sua cama.</p>
             </div>
             <div className={style.qualityItem}>
-              <ForkKnife />
+              <ForkKnife size={200}/>
               <p>Conta com a parceria (anexa) do Restaurante Zinho Batista Itapoá, para você desfrutar o que há de melhor em gastronomia, evidenciando os pratos de frutos do mar, como rodízios, sequências e porções. Com um bar com diversos tipos de drinks e bebidas. Atendendo aos hospedes e também aberto ao público.</p>
             </div>
           </div>
           <div className={style.qualityDisplay}>
-            <div className={style.qualityItem}>
-              <SwimmingPool />
+            <div className={style.qualityItem}> 
+              <SunHorizon size={120}/>
               <p>Piscina à beira-mar: Refresque-se e relaxe em nossa piscina à beira-mar, com vista para o oceano e rodeada por espreguiçadeiras confortáveis.</p>
             </div>
             <div className={style.qualityItem}>
-              <Waves />
+              <Waves size={320}/>
               <p>Anexa ao Partner Hotel Itapoá e restaurante, está a Marina Itapoá, esta Marina oferece aos hospedes serviços de Day Use, como guarda e adoçamento e lavação de  jet - sky, lanchas durante a estada no Hotel. Também possui, poitas de amarração, com total segurança, para quem vem pelo mar, bem como o serviço de transbordo da embarcação para a terra e vice versa, como também para locação de vagas anuais.</p>
             </div>
           </div>
