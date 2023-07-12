@@ -3,9 +3,9 @@ import Logo from "../../../../public/assets/logo.png"
 import Instragram from "../../../../public/assets/instagram-logo.svg"
 import Whats from "../../../../public/assets/whatsapp-logo.svg"
 import Facebook from "../../../../public/assets/facebook-logo.svg"
-import Tel from "../../../../public/assets/phone.svg"
 import style from "./style.module.scss"
 import list from "../../../../public/assets/list.svg"
+import LogoLindner from "../../../../public/assets/logolindner.png"
 
 export default function Header() {
   return (
@@ -16,7 +16,10 @@ export default function Header() {
         <label htmlFor="check" className={style.checkbtn}>
           <Image src={list} alt="Ícone menu"/>
         </label>
-        <a href="/"><Image alt="Logo" src={Logo} className={style.logo}/></a>
+        <div className={style.logosContainer}>
+          <a href="/"><Image alt="Logo" src={LogoLindner} className={style.logoLindner}/></a>
+          <a href="/"><Image alt="Logo" src={Logo} className={style.logo}/></a>  
+        </div>  
         <ul className={style.linksContainer}>
           <li><a href="/">INÍCIO</a></li>
           <li><a href="#about">SOBRE</a></li>

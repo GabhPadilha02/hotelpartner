@@ -1,4 +1,7 @@
-
+.logosContainer{
+  display: flex;
+  align-items: center;
+}
 .iconsLinks {
   list-style: none;
   display: flex;
@@ -25,11 +28,17 @@
 .logo{
   width: auto;
   height: auto;
-  max-width: 100px;
+  max-width: 150px;
   @media (max-width: 700px) {
    
   }
 }
+.logoLindner{
+  width: auto;
+  height: auto;
+  max-width: 80px;
+}
+
 
 .container{
   padding: 0.5rem;
@@ -45,12 +54,13 @@
   display: flex;
   align-items: center;
   gap: 20vw;
+  
 }
 
 .linksContainer {
   display: flex;
   gap: 3rem;
-  font-size: 0.8rem;
+  font-size: .9rem;
   align-items: center;
   list-style: none;
   color: #fff;

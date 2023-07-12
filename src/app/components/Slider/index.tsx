@@ -22,31 +22,31 @@ const Slider = () => {
   const [slides, setSlides] = useState([
     {
       imageUrl: "https://media.graphassets.com/R7YyIj5lQuii6bfrDyVv",
-      title: "RESTAURANTE",
+      title: "CAFÉ DA MANHÃ",
     },
     {
       imageUrl: "https://media.graphassets.com/28BSau0MQ1WLvislB3v9",
-      title: "RESTAURANTE",
+      title: "CAFÉ DA MANHÃ",
     },
     {
       imageUrl: "https://media.graphassets.com/0iMgQky3TZ6RcxXlD1ap",
-      title: "RESTAURANTE",
+      title: "CAFÉ DA MANHÃ",
     },
     {
       imageUrl: "https://media.graphassets.com/2OXo9mBTySW6GP5MpltL",
-      title: "RESTAURANTE",
+      title: "CAFÉ DA MANHÃ",
     },
     {
       imageUrl: "https://media.graphassets.com/dyR1mkVkSPa5XpfIAC4x",
-      title: "RESTAURANTE",
+      title: "CAFÉ DA MANHÃ",
     },
     {
       imageUrl: "https://media.graphassets.com/Yx705aL1SWO5vRdq1Um8",
-      title: "RESTAURANTE",
+      title: "CAFÉ DA MANHÃ",
     },
     {
       imageUrl: "https://media.graphassets.com/k7MmGcXZTeuWq9WMKU3k",
-      title: "RESTAURANTE",
+      title: "CAFÉ DA MANHÃ",
     },
     {
       imageUrl: "https://media.graphassets.com/Wp3rLE9ATRRUDBBECUn4",
@@ -94,7 +94,7 @@ const Slider = () => {
     },
     {
       imageUrl: "https://media.graphassets.com/aopPAVzvTliglrQHDSOv",
-      title: "VISTA PARA PRAIA",
+      title: "VISTA PARA BAÍA",
     },
     {
       imageUrl: "https://media.graphassets.com/SNjcqDiQSeypwBn0MaA0",
@@ -133,12 +133,16 @@ const Slider = () => {
       title: "ÁREA EXTERNA",
     },
     {
+      imageUrl: "https://media.graphassets.com/iGGDlTUpSC2BeMEavLMp",
+      title: "VISTA DO MIRANTE",
+    },
+    {
       imageUrl: "https://media.graphassets.com/a4UfB0Td2MrJqSTeZg2x",
-      title: "INSTALAÇÕES",
+      title: "RECEPÇÃO",
     },
     {
       imageUrl: "https://media.graphassets.com/s8AptOvPRraUQ7jTapup",
-      title: "INSTALAÇÕES",
+      title: "SALA DE DESCANSO/ LAREIRA",
     },
     {
       imageUrl: "https://media.graphassets.com/PDMNBKNSwu2tjulwSZc2",
@@ -149,11 +153,7 @@ const Slider = () => {
       title: "INSTALAÇÕES",
     },
     {
-      imageUrl: "https://media.graphassets.com/bhFJHyUIT7LkyMOIpOEk",
-      title: "PISCINA"
-    },
-    {
-      imageUrl: "https://media.graphassets.com/output=format:jpg/resize=height:800,fit:max/WGMoH3PiQgKOAedjBdWe",
+      imageUrl: "https://media.graphassets.com/mSghzgVOT96Hcxc0P4jy",
       title: "PISCINA"
     },
     {

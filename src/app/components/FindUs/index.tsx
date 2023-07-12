@@ -11,7 +11,7 @@ import mapPin from "../../../../public/assets/map-pin.svg"
 
 export function FindUs() {
   return (
-    <div className={style.container}>
+    <div className={style.container} id="findUs">
       <Image src={MdaFindUs} alt="Marca D'água" className={style.mda}/>
       <Link href="/" className={style.map}>
         <Image src={map} alt="Mapa" />

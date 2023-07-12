@@ -89,6 +89,12 @@
 }
 
 @media (max-width: 800px) {
+  .bg{
+    img{
+      position: inherit;
+      width: 200px;
+    }
+  }
   .container{
     form{
       width: 80vw;

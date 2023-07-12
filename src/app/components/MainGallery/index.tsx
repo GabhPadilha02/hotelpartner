@@ -14,7 +14,7 @@ export function MainGallery() {
  
 
   return (
-    <main>
+    <main id="gallery">
       <Image src={galleryTitle} alt="Titulo da Galeria" height={150} className={style.galleryTitle}/>
       <div className={style.sliderContainer}>
         <Slider />

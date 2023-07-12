@@ -23,7 +23,7 @@ export function About() {
 
       <div className={style.line}></div>
 
-      <div className={style.qualityListContainer}>
+      <div className={style.qualityListContainer} >
         <Image src={qualityTitle} alt="Titulo da sessão" height={150} className={style.qualityTitle}/>
         <div className={style.qualityDisplay}>
           <ul className={style.qualityList}>
@@ -39,7 +39,7 @@ export function About() {
         </div>
       </div>
 
-      <div className={style.aboutUsContainer}>
+      <div className={style.aboutUsContainer} id="about">
         <Image src={aboutUsTitle} alt="Titulo da sessão sobre nós" height={90} className={style.glassInfoTitle}/>
         <div className={style.glassInfoContainer}>
           <div className={style.qualityDisplay}>
@@ -49,7 +49,7 @@ export function About() {
             </div>
             <div className={style.qualityItem}>
               <ForkKnife size={200}/>
-              <p>Conta com a parceria (anexa) do Restaurante Zinho Batista Itapoá, para você desfrutar o que há de melhor em gastronomia, evidenciando os pratos de frutos do mar, como rodízios, sequências e porções. Com um bar com diversos tipos de drinks e bebidas. Atendendo aos hospedes e também aberto ao público.</p>
+              <p>Conta com a parceria em anexo do Restaurante Zinho Batista Itapoá, para você desfrutar o que há de melhor em gastronomia, evidenciando os pratos de frutos do mar, como rodízios, sequências e porções. Com um bar com diversos tipos de drinks e bebidas. Atendendo aos hospedes e também aberto ao público.</p>
             </div>
           </div>
           <div className={style.qualityDisplay}>

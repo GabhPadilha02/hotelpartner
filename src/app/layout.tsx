@@ -1,7 +1,7 @@
-import { Inter } from 'next/font/google'
-const inter = Inter({
-  weight: ['200', '300', '400', '500', '700', '800'],
-  variable: '--font-inter',
+import { Roboto } from 'next/font/google'
+const roboto = Roboto({
+  weight: ['100','300','400','500','700'],
+  variable: '--font-roboto',
   preload: false,
   subsets: ['latin']
 })
@@ -13,7 +13,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={inter.variable}>       
+    <html lang="en" className={roboto.className}>       
         <body>{children}</body>  
     </html>
   )
