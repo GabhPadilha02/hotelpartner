@@ -7,7 +7,7 @@ export function InitialSection() {
   return (
     <main className={style.background}>
       <Image src={firstText} alt="Texto Principal" className={style.firsText}/>
-      <Image src={lindnerLogo} alt="Logo" className={style.lindnerLogo} />
+      {/* <Image src={lindnerLogo} alt="Logo" className={style.lindnerLogo} /> */}
     </main>
   )
 }
