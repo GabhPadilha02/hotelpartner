@@ -15,10 +15,7 @@ const ebGaramond = EB_Garamond (
 
 
 
-const Slider = () => {
-
-   
-  
+const Slider = () => { 
   const [slides, setSlides] = useState([
     {
       imageUrl: "https://media.graphassets.com/R7YyIj5lQuii6bfrDyVv",
@@ -150,7 +147,7 @@ const Slider = () => {
     },
     {
       imageUrl: "https://media.graphassets.com/LQHuzDpeRlSr9RJ4vo7R",
-      title: "INSTALAÇÕES",
+      title: "RECEPÇÃO",
     },
     {
       imageUrl: "https://media.graphassets.com/mSghzgVOT96Hcxc0P4jy",

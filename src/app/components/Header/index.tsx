@@ -17,7 +17,7 @@ export default function Header() {
           <Image src={list} alt="Ícone menu"/>
         </label>
         <div className={style.logosContainer}>
-          <a href="/"><Image alt="Logo" src={LogoLindner} className={style.logoLindner}/></a>
+          {/* <a href="/"><Image alt="Logo" src={LogoLindner} className={style.logoLindner}/></a> */}
           <a href="/"><Image alt="Logo" src={Logo} className={style.logo}/></a>  
         </div>  
         <ul className={style.linksContainer}>
