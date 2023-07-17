@@ -4,7 +4,7 @@ import sunIcon from "../../../../public/assets/SunIcon.png"
 import aboutImage from "../../../../public/assets/aboutImage.jpg"
 import style from "./style.module.scss"
 import qualityTitle from "../../../../public/assets/qualityTitle.png"
-import pool from "../../../../public/assets/pool.jpg"
+import pool from "../../../../public/assets/pool.jpeg"
 import aboutUsTitle from "../../../../public/assets/AboutUsTitle.png"
 import { Sun, Waves, ForkKnife, SunHorizon,  } from "phosphor-react";
 
