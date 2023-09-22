@@ -29,7 +29,7 @@ export function FindUs() {
               </li>
               <li>
                 <Image src={whatsapp} alt="Ícone de telefone"/>
-                <span>(47)99938-0066</span>
+                <span>(47)99650-1196</span>
               </li>
             </ul>
           </div>
