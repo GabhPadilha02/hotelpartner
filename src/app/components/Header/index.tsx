@@ -28,7 +28,7 @@ export default function Header() {
         </ul>
         <ul className={style.iconsLinks}>
            <li><a href="https://www.instagram.com/partneritapoa/" target="_blank"><Image src={Instragram} alt="Ícone Instagram"/></a></li>
-           <li><a href="https://wa.me/5547999380066" target="_blank"><Image src={Whats} alt="Ícone Whats"/></a></li>
+           <li><a href="https://wa.me/5547996501196" target="_blank"><Image src={Whats} alt="Ícone Whats"/></a></li>
            <li><a href="https://www.facebook.com/profile.php?id=100090911494350" target="_blank"> <Image src={Facebook} alt="Ícone Facebook"/></a></li>
          </ul>
       </nav>
